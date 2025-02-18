@@ -3,6 +3,9 @@ section.hero {
   width: 100%;
   padding: 2.5rem 2rem;
   margin-inline: auto;
+  
+  align-items: center;
+  display: flex;
 
   & h1 {
     max-width: 40rem;
@@ -34,6 +37,15 @@ section.hero {
       animation: slideUp 5s infinite ease ;
     }
   }
+
+  & > div:nth-child(2) {
+    display: block;
+    width: 100%;
+    max-width: 30.5rem;
+    height: 30.5rem;
+  }
+
+
 
 @keyframes slideUp {
 
