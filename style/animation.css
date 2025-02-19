@@ -86,3 +86,15 @@
     opacity: 1;
   }
 }
+
+@keyframes roll {
+  to {
+    transform: translateX(-132px);
+  }
+}
+
+@keyframes gradient {
+  50% {
+    background-position: 100% 50%;
+  }
+}
