@@ -98,3 +98,10 @@
     background-position: 100% 50%;
   }
 }
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}
